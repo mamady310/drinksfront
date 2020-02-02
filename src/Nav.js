@@ -13,6 +13,7 @@ class Nav extends React.Component {
                 <Link to="/"><li>Home</li></Link>
                 <Link to="/Rum"><li>Rum</li></Link>
                 <Link to="/Gin"><li>Gin</li></Link>
+                <Link to="/Brandy"><li>Brandy</li></Link>
             </ul>
 
           </nav>
