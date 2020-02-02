@@ -7,6 +7,8 @@ import Nav from "./Nav"
 import Rum from "./Rum"
 import Gin from "./Gin"
 import Brandy from "./Brandy"
+import Tequila from "./Tequila"
+import Vodka from "./Vodka"
 
 class App extends Component {
   constructor (props){
@@ -37,6 +39,8 @@ render () {
         <Route path="/Rum" exact component={Rum}/>
         <Route path="/Gin" exact component={Gin}/>
         <Route path="/Brandy" exact component={Brandy}/>
+        <Route path="/Tequila" exact component={Tequila}/>
+        <Route path="/Vodka" exact component={Vodka}/>
       </Switch>
     </div> 
   </Router>

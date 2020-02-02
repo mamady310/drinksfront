@@ -14,6 +14,8 @@ class Nav extends React.Component {
                 <Link to="/Rum"><li>Rum</li></Link>
                 <Link to="/Gin"><li>Gin</li></Link>
                 <Link to="/Brandy"><li>Brandy</li></Link>
+                <Link to="/Tequila"><li>Tequila</li></Link>
+                <Link to="/Vodka"><li>Vodka</li></Link>
             </ul>
 
           </nav>
